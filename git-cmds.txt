@@ -5,3 +5,7 @@ git commit -m "added testing file"
 git rm --cached testing.py
 git restore testing.py
 clear
+git branch -M main
+git remote -v
+git remote set-url origin https://<PERSONALACCESSTOKEN>@github.com/ Raviteja803/github-for-devops.git
+git push origin main
